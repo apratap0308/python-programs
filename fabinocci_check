@@ -1,0 +1,18 @@
+import math
+
+def isperfectsquare(n):
+    s = int(math.sqrt(x))
+    return s*s == x
+
+
+def isFabonacci(n):
+    
+
+    return isperfectsquare(5*n*n+4) or isperfectsquare(5*n*n-4)
+
+
+ for i in range(1,11):
+     if(isFabonacci(i) == True):
+         print i, "is a Fibonacci number"
+     else:
+         print i, "is not a fibonacci number"       
